@@ -1,3 +1,6 @@
+'use strict';
+
+
 var leftboarderwidth = 1; //var, let, const - переменные
 let second = 2;
 const numberpi = 3.14
@@ -23,24 +26,24 @@ let images = ['banana.jpg', 'apple.png'];
 console.log(images[0]); //выводит в консоль переменную или предмет по номеру 
 // alert('Are you sure?'); // alert - окно с вопросом 
 
-//let answer = confirm("Are you here?"); окно с вопросом и строкой для введения ответа
-let answer = prompt("Are u 18 y.o.?" , "Yes");
-console.log(typeof(answer));
+//let answer = confirm("Are you here?"); окно с вопросом 
+//let answer = prompt("Are u 18 y.o.?" , "Yes"); //окно с вопросом и строкой для введения ответа
+console.log(typeof(answer)); //тип ответа
 
 let incr = 25,
     decr = 25;
 
 
-    console.log(incr++);
+    console.log(incr++); //++ добавить 1, -- отнять 1
     console.log(decr--);
 
-    console.log(15%4);
-    console.log("24" == 24);
+    console.log(15%4); // % остаток от деления
+    console.log("24" == 24); // = присваивание, == проверка равенства, ===проверка равенства и типа(строгая проверка)
 
     let isChecked = true,
         isClose = false;
 
-        console.log(isChecked && !isClose);
-        console.log(isChecked || isClose);
+        console.log(isChecked && !isClose);  //&& оператор (и) , ! делает значение противоположным
+        console.log(isChecked || isClose);  // || оператор (или)  
 
 
